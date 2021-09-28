@@ -8,7 +8,7 @@ pip3 install ipywidgets plotly
 # jupyter nbextension enable plotlywidget --user --py
 
 # Establish basic geo libraries for Physical Risk
-pip3 install pandas geopandas matplotlib affine snuggs ipyleaflet
+pip3 install pandas geopandas matplotlib affine snuggs ipyleaflet ipysheet
 
 # Activate the ipyleaflet extensions where we can see them
 # Check Edit->nbextensions config menu item to see that ipyleaflet extension is visible
