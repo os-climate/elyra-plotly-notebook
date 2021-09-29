@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Support basic incfra of Red Hat data pipeline architecture
+pip3 install python-dotenv boto3 pyarrow trino
+
 # Until we can properly support JupyterLab, use Plotly version 4
 pip3 install ipywidgets plotly
 
